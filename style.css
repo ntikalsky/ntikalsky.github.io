@@ -1,0 +1,238 @@
+body{
+    background-color: #121212;
+    color: #FFF;
+    padding-bottom: 100px;
+    font-family: "Work Sans", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #282a36;
+}
+
+a:hover{
+    color: #8be9fd;
+}
+
+/*navbar*/
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#nav{
+    background-color: #bd93f9;
+    height: 60px;
+    font-family: Work Sans;
+    letter-spacing: 1.5px;
+}
+
+.navbar{
+    word-spacing: 1.5em;
+    font-size: 23px;
+}
+
+.nicole{
+    flex: 1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 35px;
+}
+
+/*mobile navbar*/
+@media (max-width: 900px)
+{
+    #nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+#introflex{
+    display: flex;
+    flex-direction: row;
+}
+
+#intro{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    flex: 0 1 500px;
+}
+
+#intro > h1{
+    font-family: Poppins;
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+#intro > h1 > b{
+    color:#8be9fd;
+}
+
+#intro > a:hover{
+    color:#8be9fd;
+}
+
+#intro > a{
+    font-family: Helvetica;
+    font-weight: bolder;
+    color:#bd93f9;
+}
+
+.blnk1{
+    flex: 1;
+}
+
+.blnk2{
+    flex: 2;
+}
+
+#skillflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+#jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 2 1;
+    background-color: #181818;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#jobs > h3{
+    font-family: Poppins;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: #6272a4;
+    background-color: #121212;
+    width: 100%;
+    text-align: center;
+}
+
+#skills{
+    display: flex;
+    flex: 0 1 1;
+    height: 650px;
+    background-color: #181818;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+    padding-right: 65px;
+}
+
+#skills > ul{
+
+    list-style-type: none;
+    line-height: 3ex;
+}
+
+#skills > ul > h3{
+    font-family: Poppins;
+    letter-spacing: 4px;
+    font-size: 25px;
+    color: #6272a4;
+    text-align: center;
+    background-color: #121212;
+    width: 110%;
+    height: 30px;
+    padding-top: 7px;
+}
+
+.imgbanner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #282a36;
+    gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.homerestore, .homeriver, .homewordpress{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#jobs > p{
+    text-align: center;
+    line-height: 3ex;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.project_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 100px;
+    background-color: #181818;
+    border-radius: 10px;
+}
+
+img{
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.restore, .wordpress, .riverrose, .photoshop_art, .herobanner, .dandelions, .can{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #121212;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.restore > p, .wordpress > p, .riverrose > p, .photoshop_art > p, .herobanner > p, .dandelions > p, .can > p{
+    max-width: 250px;
+}
+
+.title{
+    font-family: Poppins;
+    font-weight: 800;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding: 100px;
+    text-align: center;
+}
+
+footer{
+    padding: 50px;
+}
