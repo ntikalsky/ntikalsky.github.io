@@ -68,7 +68,7 @@ a:hover{
 #intro{
     display: flex;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     padding-left: 50px;
     padding-right: 50px;
     flex-direction: column;
@@ -167,13 +167,14 @@ a:hover{
 .imgbanner{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
     background-color: #282a36;
     gap: 100px;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .homerestore, .homeriver, .homewordpress{
@@ -182,6 +183,7 @@ a:hover{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-top: 0;
 }
 
 #jobs > p{
@@ -210,18 +212,15 @@ img{
     max-height: 500px;
 }
 
-.restore, .wordpress, .riverrose, .photoshop_art, .herobanner, .dandelions, .can{
+.restore, .wordpress, .riverrose, .photoshop_art, .herobanner, .dandelions, .can, .excelbike{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: #121212;
-    padding: 50px;
+    padding: 40px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
-}
-
-.restore > p, .wordpress > p, .riverrose > p, .photoshop_art > p, .herobanner > p, .dandelions > p, .can > p{
-    max-width: 250px;
 }
 
 .title{
@@ -229,10 +228,37 @@ img{
     font-weight: 800;
     letter-spacing: 5px;
     font-size: 30px;
-    padding: 100px;
+}
+
+.git{
+    padding-bottom: 50px;
+}
+
+.git > a{
+    color:#bd93f9;
+}
+
+.git > a:hover{
+    color: #8be9fd;
+}
+
+.title, .git{
     text-align: center;
 }
 
-footer{
-    padding: 50px;
+.resume{
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
 }
+
+.resume > a{
+    color:#FFF;
+}
+
+.resume > a:hover{
+    color: #8be9fd;
+}
+
